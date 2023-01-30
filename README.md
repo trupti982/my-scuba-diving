@@ -1,1 +1,1 @@
-# my-scuba-diving
+# SCUBA-DIVING-SIMULATION
