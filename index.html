@@ -4,6 +4,8 @@
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script> 
     <script src="https://cdn.rawgit.com/zcanter/aframe-gradient-sky/master/dist/gradientsky.min.js"></script>
     <script src="./js/Rotation.js"></script>
+    <script src="./js/Treasure.js"></script>
+    <script src="./js/fish.js"></script>
 </head>
 <body>
     
@@ -36,9 +38,10 @@
   <a-entity gltf-model="#scuba_driver"scale="0.1 0.1 0.1"position="5 0 15"rotation="0 90 -20"diver-rotation-reader>
   <a-sphere id="bubble" position="52.9829 119.97737 -49.38121"radius="1"color="#b2ebf2"animation="property: position; to: 52.9829 300 -49.38121;easing:linear; loop: true; dur: 2000"></a-sphere></a-entity>
   <a-cylinder color="#00009e" radius="100" opacity="0.2"></a-cylinder>
-
+  <a-entity position="0 0 0" id="treasureCoins" coins> </a-entity>
 
   <a-entity camera="active: true"look-controls position="0 10 25"></a-entity>
+  <a-entity position="0 0 0" id="fishModels" fish> </a-entity>
    
 </a-scene>
 </body>
